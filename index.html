@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="#" method="get" autocomplete="on">
+                <fieldset>
+                    <legend>formulário de cadastro</legend>
+                    <br>
+                    <div class="for1">
+                        <label for="iname">Nome:</label> <br>
+                        <input type="text" name="name"
+                        id="iname" required
+                        placeholder="escreva seu nome">
+                        <label for="isobre"> <br> sobre nome:</label> <br>
+                        <input type="text" name="sobre" id="isobre" required placeholder="sobre nome" >
+                    </div>
+                            <br><br>
+                            <div class="for2">
+                    <label for="iemail">Email:</label>
+                    <input type="email" name="email" id="iemail" required placeholder="escreva seu email">
+                            </div>
+                            <br>
+                            <div class="for3">
+                    <label for="iDDD">DDD</label>
+                    <select name="DD" id="iDD" required>DD
+                        <option selected>----</option>
+                    <optgroup">
+                        <option >(21)</option>
+                        <option >(81)</option>
+                        <option >(55)</option>
+                        <option >(31)</option>
+                    </optgroup>
+                            </select>
+                            </div>
+                            <br>
+                            <div class="telefone">
+                    <label for="itel">telefone</label>
+                    <input type="tel" name="telefone" id="itelefone" placeholder="exemplo: 21999333" required>
+                            </div>
+                            <br><br>
+                            <div class="select">
+                    <label for="isexo">sexo</label>
+                            <select name="Sexo" id="isexo">
+                    <optgroup label="Sexo">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>cachorro</option>
+                        <option>ovelha</option>
+                        <option>otaku</option>
+                    </optgroup>
+                            </select>
+                            </div>
+                            <br><br>
+                            <div class="for4">
+                    <label for="iende">Endereço</label>
+                    <input type="text" name="endereço" id="iende" placeholder="exemplo: rua das cashinbas" required>
+                            </div>
+                            <br>
+                            <div class="for5">
+                                <label for="icid">Cidade</label>
+                                <input type="text" placeholder="exemplo: RJ" required>
+                            </div>
+                            <br>
+                            <div class="for6">
+                                <input type="submit" value="Finalizar">
+                                <input type="reset" value="limpar">
+                            </div>
+                            <br>
+                         <div>
+                            <p>Você gostou desse cadastro?</p>
+                            <p>voltaria aqui ?</p>
+                            <br>
+                            <label for="iok">Sim</label>
+                            <input type="radio" name="ok" id="iok">
+                            <br>
+                            <label for="in">Não</label>
+                            <input type="radio" name="ok" id="in">
+                         </div>
+                </fieldset>
+                     <br><br>
+                        <textarea name="msg" id="imsg" cols="40" rows="10" placeholder="Mensagem:"></textarea>
+    </form>
+</body>
+</html>
